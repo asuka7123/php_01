@@ -20,6 +20,8 @@ if(isset($_POST["hand"])){
 <body>
 
 <p id=title>じゃんけんゲーム</p>
+  
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
 <script>
   const CLASSNAME = "-visible";
@@ -29,7 +31,7 @@ if(isset($_POST["hand"])){
   setInterval(() => {
     $target.addClass(CLASSNAME);
     setTimeout(() => {
-      $target.removeClass(CLASSNAME);
+    $target.removeClass(CLASSNAME);
     }, TIMEOUT);
   }, TIMEOUT * 2);
 </script>
