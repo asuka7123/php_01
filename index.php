@@ -18,9 +18,7 @@ if(isset($_POST["hand"])){
 </head>
 
 <body>
-
 <p id=title>じゃんけんゲーム</p>
-  
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
 <script>
